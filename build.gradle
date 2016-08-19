@@ -59,7 +59,7 @@ dependencies {
     testCompile("org.springframework.boot:spring-boot-starter-test:1.4.0.RELEASE")
 }
 
-
+// add comment
 task wrapper(type: Wrapper) {
     description = "Generates gradlew[.bat] scripts"
     gradleVersion = '3.0'
